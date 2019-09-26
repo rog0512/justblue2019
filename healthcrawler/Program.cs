@@ -23,7 +23,7 @@ namespace healthcrawler
             {
                 seatsPrefix.Add(args[i]);
             }
-            String url = @"https://tixcraft.com/activity/game/19_KarenMok";
+            String url = @"https://tixcraft.com/activity/game/19_JRI";
             rootUrl = @"https://tixcraft.com";
             int x = 0;
             driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
