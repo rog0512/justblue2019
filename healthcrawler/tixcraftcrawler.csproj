@@ -1,0 +1,208 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="76.0.3809.6801" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="Selenium.Support" Version="3.141.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Remove="stocks\2108" />
+    <None Remove="stocks\.DS_Store" />
+    <None Remove="stocks\1264" />
+    <None Remove="stocks\2049" />
+    <None Remove="stocks\2013" />
+    <None Remove="stocks\2014" />
+    <None Remove="stocks\1201" />
+    <None Remove="stocks\2022" />
+    <None Remove="stocks\2025" />
+    <None Remove="stocks\1402" />
+    <None Remove="stocks\1262" />
+    <None Remove="stocks\2070" />
+    <None Remove="stocks\2024" />
+    <None Remove="stocks\1231" />
+    <None Remove="stocks\1236" />
+    <None Remove="stocks\2023" />
+    <None Remove="stocks\2015" />
+    <None Remove="stocks\2012" />
+    <None Remove="stocks\3046" />
+    <None Remove="stocks\3041" />
+    <None Remove="stocks\3048" />
+    <None Remove="stocks\3083" />
+    <None Remove="stocks\3024" />
+    <None Remove="stocks\2102" />
+    <None Remove="stocks\2105" />
+    <None Remove="stocks\3023" />
+    <None Remove="stocks\1310" />
+    <None Remove="stocks\2301" />
+    <None Remove="stocks\1326" />
+    <None Remove="stocks\3015" />
+    <None Remove="stocks\1319" />
+    <None Remove="stocks\1321" />
+    <None Remove="stocks\3085" />
+    <None Remove="stocks\3071" />
+    <None Remove="stocks\3049" />
+    <None Remove="stocks\3040" />
+    <None Remove="stocks\3078" />
+    <None Remove="stocks\3047" />
+    <None Remove="stocks\3013" />
+    <None Remove="stocks\3014" />
+    <None Remove="stocks\3022" />
+    <None Remove="stocks\2104" />
+    <None Remove="stocks\2103" />
+    <None Remove="stocks\1316" />
+    <None Remove="stocks\3025" />
+    <None Remove="stocks\3038" />
+    <None Remove="stocks\1333" />
+    <None Remove="stocks\3000" />
+    <None Remove="stocks\1108" />
+    <None Remove="stocks\3036" />
+    <None Remove="stocks\1305" />
+    <None Remove="stocks\3031" />
+    <None Remove="stocks\3062" />
+    <None Remove="stocks\3054" />
+    <None Remove="stocks\1303" />
+    <None Remove="stocks\3030" />
+    <None Remove="stocks\1109" />
+    <None Remove="stocks\3008" />
+    <None Remove="stocks\3037" />
+    <None Remove="stocks\1304" />
+    <None Remove="stocks\3006" />
+    <None Remove="stocks\3052" />
+    <None Remove="stocks\3055" />
+    <None Remove="stocks\3064" />
+    <None Remove="stocks\2030" />
+    <None Remove="stocks\1225" />
+    <None Remove="stocks\2008" />
+    <None Remove="stocks\2006" />
+    <None Remove="stocks\1416" />
+    <None Remove="stocks\1240" />
+    <None Remove="stocks\2063" />
+    <None Remove="stocks\2064" />
+    <None Remove="stocks\2038" />
+    <None Remove="stocks\2007" />
+    <None Remove="stocks\1215" />
+    <None Remove="stocks\2009" />
+    <None Remove="stocks\2031" />
+    <None Remove="stocks\2065" />
+    <None Remove="stocks\2062" />
+    <None Remove="stocks\1417" />
+    <None Remove="stocks\1410" />
+    <None Remove="stocks\2017" />
+    <None Remove="stocks\2028" />
+    <None Remove="stocks\2010" />
+    <None Remove="stocks\1233" />
+    <None Remove="stocks\1234" />
+    <None Remove="stocks\1409" />
+    <None Remove="stocks\1260" />
+    <None Remove="stocks\1258" />
+    <None Remove="stocks\1269" />
+    <None Remove="stocks\1256" />
+    <None Remove="stocks\1235" />
+    <None Remove="stocks\2020" />
+    <None Remove="stocks\2027" />
+    <None Remove="stocks\1232" />
+    <None Remove="stocks\1203" />
+    <None Remove="stocks\2029" />
+    <None Remove="stocks\1268" />
+    <None Remove="stocks\2106" />
+    <None Remove="stocks\1313" />
+    <None Remove="stocks\1314" />
+    <None Remove="stocks\3027" />
+    <None Remove="stocks\2101" />
+    <None Remove="stocks\3018" />
+    <None Remove="stocks\3011" />
+    <None Remove="stocks\1110" />
+    <None Remove="stocks\2305" />
+    <None Remove="stocks\2302" />
+    <None Remove="stocks\1325" />
+    <None Remove="stocks\3016" />
+    <None Remove="stocks\3029" />
+    <None Remove="stocks\3089" />
+    <None Remove="stocks\3042" />
+    <None Remove="stocks\3045" />
+    <None Remove="stocks\1340" />
+    <None Remove="stocks\3073" />
+    <None Remove="stocks\1324" />
+    <None Remove="stocks\3017" />
+    <None Remove="stocks\2303" />
+    <None Remove="stocks\3028" />
+    <None Remove="stocks\3010" />
+    <None Remove="stocks\1323" />
+    <None Remove="stocks\1315" />
+    <None Remove="stocks\3026" />
+    <None Remove="stocks\3019" />
+    <None Remove="stocks\3021" />
+    <None Remove="stocks\1312" />
+    <None Remove="stocks\2107" />
+    <None Remove="stocks\3081" />
+    <None Remove="stocks\3086" />
+    <None Remove="stocks\1341" />
+    <None Remove="stocks\3044" />
+    <None Remove="stocks\3088" />
+    <None Remove="stocks\3043" />
+    <None Remove="stocks\3066" />
+    <None Remove="stocks\3059" />
+    <None Remove="stocks\3050" />
+    <None Remove="stocks\3057" />
+    <None Remove="stocks\3003" />
+    <None Remove="stocks\1308" />
+    <None Remove="stocks\3004" />
+    <None Remove="stocks\1337" />
+    <None Remove="stocks\1301" />
+    <None Remove="stocks\3032" />
+    <None Remove="stocks\1339" />
+    <None Remove="stocks\3035" />
+    <None Remove="stocks\3056" />
+    <None Remove="stocks\3051" />
+    <None Remove="stocks\3067" />
+    <None Remove="stocks\3058" />
+    <None Remove="stocks\3060" />
+    <None Remove="stocks\1338" />
+    <None Remove="stocks\3034" />
+    <None Remove="stocks\1307" />
+    <None Remove="stocks\3033" />
+    <None Remove="stocks\1309" />
+    <None Remove="stocks\3005" />
+    <None Remove="stocks\1104" />
+    <None Remove="stocks\1336" />
+    <None Remove="stocks\3002" />
+    <None Remove="stocks\2069" />
+    <None Remove="stocks\2034" />
+    <None Remove="stocks\1219" />
+    <None Remove="stocks\2033" />
+    <None Remove="stocks\1210" />
+    <None Remove="stocks\1217" />
+    <None Remove="stocks\2002" />
+    <None Remove="stocks\2061" />
+    <None Remove="stocks\2066" />
+    <None Remove="stocks\2059" />
+    <None Remove="stocks\1413" />
+    <None Remove="stocks\1414" />
+    <None Remove="stocks\1229" />
+    <None Remove="stocks\1216" />
+    <None Remove="stocks\1218" />
+    <None Remove="stocks\1227" />
+    <None Remove="stocks\2032" />
+    <None Remove="stocks\2035" />
+    <None Remove="stocks\1220" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <Policies>
+          <TextStylePolicy TabWidth="4" IndentWidth="4" RemoveTrailingWhitespace="True" NoTabsAfterNonTabs="False" EolMarker="Native" FileWidth="80" TabsToSpaces="True" scope="text/x-csharp" />
+          <CSharpFormattingPolicy IndentBlock="True" IndentBraces="False" IndentSwitchSection="True" IndentSwitchCaseSection="True" LabelPositioning="OneLess" NewLinesForBracesInTypes="True" NewLinesForBracesInMethods="True" NewLinesForBracesInProperties="True" NewLinesForBracesInAccessors="True" NewLinesForBracesInAnonymousMethods="True" NewLinesForBracesInControlBlocks="True" NewLinesForBracesInAnonymousTypes="True" NewLinesForBracesInObjectCollectionArrayInitializers="True" NewLinesForBracesInLambdaExpressionBody="True" NewLineForElse="True" NewLineForCatch="True" NewLineForFinally="True" NewLineForMembersInObjectInit="True" NewLineForMembersInAnonymousTypes="True" NewLineForClausesInQuery="True" SpacingAfterMethodDeclarationName="False" SpaceWithinMethodDeclarationParenthesis="False" SpaceBetweenEmptyMethodDeclarationParentheses="False" SpaceAfterMethodCallName="False" SpaceWithinMethodCallParentheses="False" SpaceBetweenEmptyMethodCallParentheses="False" SpaceAfterControlFlowStatementKeyword="True" SpaceWithinExpressionParentheses="False" SpaceWithinCastParentheses="False" SpaceWithinOtherParentheses="False" SpaceAfterCast="False" SpacesIgnoreAroundVariableDeclaration="False" SpaceBeforeOpenSquareBracket="False" SpaceBetweenEmptySquareBrackets="False" SpaceWithinSquareBrackets="False" SpaceAfterColonInBaseTypeDeclaration="True" SpaceAfterComma="True" SpaceAfterDot="False" SpaceAfterSemicolonsInForStatement="True" SpaceBeforeColonInBaseTypeDeclaration="True" SpaceBeforeComma="False" SpaceBeforeDot="False" SpaceBeforeSemicolonsInForStatement="False" SpacingAroundBinaryOperator="Single" WrappingPreserveSingleLine="True" WrappingKeepStatementsOnSingleLine="True" scope="text/x-csharp" />
+          <TextStylePolicy TabWidth="4" IndentWidth="4" RemoveTrailingWhitespace="True" NoTabsAfterNonTabs="False" EolMarker="Native" FileWidth="80" TabsToSpaces="True" scope="text/plain" />
+          <TextStylePolicy inheritsSet="null" scope="application/x-csproject" />
+          <XmlFormattingPolicy inheritsSet="null" scope="application/x-csproject" />
+        </Policies>
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+</Project>
